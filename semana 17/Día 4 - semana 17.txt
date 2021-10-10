@@ -1,0 +1,2 @@
+En esta clase comencé a ordenar mi proyecto para que tuviera una arquitectura MVVM (model–view–viewmodel), por lo que me guié por algunos
+tutoriales sobre el tema pero me di cuenta que no podría tener los resultados que esperaba.

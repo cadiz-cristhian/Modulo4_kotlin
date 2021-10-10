@@ -1,0 +1,3 @@
+En esta clase comencé a realizar pruebas con Kotlin y sin duda lo veo como un lenguaje
+muy complejo y a la vez muy simplificado. Donde comparado con java  uno puede programar la misma función
+en menos lineas, tambien pasa con los ciclos y como se escribe la sentencia if.

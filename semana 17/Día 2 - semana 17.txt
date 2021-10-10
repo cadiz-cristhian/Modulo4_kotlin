@@ -1,0 +1,3 @@
+En esta clase hice una prueba para que la aplicación me muestre los datos obtenidos en mi recyclerView.
+Esta prueba la hice en la activity "Opciones". 
+Creé el Adapter y el viewHolder pero no tuve los resultados esperados.

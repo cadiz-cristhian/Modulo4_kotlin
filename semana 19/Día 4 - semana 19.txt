@@ -1,0 +1,6 @@
+En esta clase terminé por implementar ROOM creando una activity llamada Peliculas Guardadas.
+El usuario al ver el detalle de la pelicula tendrá la opción de guardar las peliculas que le gusten
+y estas se almacenarán en un recyclerview. La idea es que la información quede guardada sin importar que 
+la aplicación se cierre o algo.
+Esta activity da la opción de borrar la pelicula de la lista si así lo desea el usuario.
+

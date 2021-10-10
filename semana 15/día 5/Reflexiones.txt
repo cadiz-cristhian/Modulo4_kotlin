@@ -1,0 +1,3 @@
+En esta clase busqué información sobre los contenidos de este modulo y como los puedo adaptar a mi
+proyecto.
+Tambien busqué videos de cómo empezar a ocupar kotlin, lo cual es nuevo para mi ya que solamente había visto lenguaje C# y java.

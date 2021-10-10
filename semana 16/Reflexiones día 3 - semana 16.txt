@@ -1,0 +1,5 @@
+En esta clase seguí viendo videos y averiguando sobre kotlin. Principalmente cómo es el funcionamiento de
+la arquitectura MVVM y cómo la puedo implementar en mi proyecto.
+Tambien averigue sobre diferentes api rest sobre peliculas que me podrían servir pero todas
+hacen la consulta desde un ID en la pagina de IMDB ( internet movie database). Por ahora
+lo que necesito es consultar una lista de peliculas dependiendo de su genero ( terror, comedia, drama, etc).

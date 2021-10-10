@@ -1,0 +1,3 @@
+En esta clase comenzaron a mostrar los proyectos , los cuales eran muy variados. 
+Por mi parte comencé a arreglar los ultimos detalles para el diseño de UI. Cambié colores de los botones y fondos.
+Arreglé la distribución e implementé crashanalitys

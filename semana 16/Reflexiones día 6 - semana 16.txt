@@ -1,0 +1,2 @@
+En esta clase comencé a averiguar sobre como utilizar retrofit para poder traer la información desde
+el archivo json ubicado en el servidor.

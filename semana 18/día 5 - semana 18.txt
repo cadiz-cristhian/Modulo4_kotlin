@@ -1,0 +1,2 @@
+En esta clase comencé a averiguar sobre como implementar ROOM en mi proyecto ya que es necesario para poder revisar
+la lista de peliculas guardadas en el perfil del usuario.

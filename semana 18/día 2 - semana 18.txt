@@ -1,0 +1,2 @@
+En esta clase comencé a ver como podría hacer para que el recyclerview me muestre los resultados según el 
+genero elegido en el cuestionario.

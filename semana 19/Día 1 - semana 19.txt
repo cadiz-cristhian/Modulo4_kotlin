@@ -1,0 +1,13 @@
+En esta clase completé la activity Detalle, en la cual usé un Scroll View para que el usuario 
+pudiera desplazar la información de acuerdo a lo que quisiera ver.
+el orden es:
+
+Titulo 
+Director
+Fecha 
+Poster
+Sinopsis
+
+Mas abajo estaría el boton de ver trailer y guardar pelicula.
+Los cuales necesito implementar con un plugin para visualizar videos de
+youtube y con ROOM para guardar peliculas.

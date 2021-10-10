@@ -1,0 +1,6 @@
+En esta clase investigué como implementar el login mediante authentication de firebase, el cual
+utiliza una cuenta de google y da la opción de crear cuenta y recuperar contraseña.
+Al ser mi primer acercamiento a kotlin me costó un poco seguir la lógica del tutorial.
+
+Tutorial que seguí
+https://www.youtube.com/watch?v=xf-LNA6m97g 

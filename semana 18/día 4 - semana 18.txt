@@ -1,0 +1,5 @@
+En esta clase comencé a implementar la opción de ver el detalle de la pelicula 
+cargada en el recyclerView. La idea es que muestre el poster, una pequeña reseña y la información
+que trae del .json y que se pueda guardar como favorita.
+
+Por ahora solo muestra los datos que trae del recyclerview anterior.

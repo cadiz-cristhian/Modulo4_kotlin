@@ -1,0 +1,17 @@
+En esta clase implementé ROOM para poder guardar las peliculas y que las muestre en un recyclerview.
+
+-Creé la clase PeliculaEntidad para que fuera una dataclass y una entidad.
+-Creé la clase PeliculaDatabase que es la encargada de crear la base de datos "PeliculaDB"
+-Creé la clase PeliculaDao que se encarga de realizar las consultas necesarias. Por ahora solo ocupare las siguientes:
+
+@Insert(onConflict = OnConflictStrategy.IGNORE)
+    fun agregarLista (pelicula : PeliculaEntidad?)
+
+    @Query("SELECT * FROM pelicula ORDER BY id DESC")
+    fun obtenerPeliculas() : List<PeliculaEntidad>?
+
+    @Delete
+    fun eliminarPelicula(pelicula : PeliculaEntidad?)
+
+
+

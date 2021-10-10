@@ -1,0 +1,62 @@
+Siguiendo lo de la clase anterior, implementé corutinas para poder filtrar las peliculas según genero ( drama, accion, terror, comedia)
+como ejemplo para que muestre solo las peliculas de accion:
+
+Clase RepositorioPeliculas:
+
+ suspend fun getPeliculasAccion(): List<Pelicula> {
+        val response = api.getPelicula()
+        var genero: MutableList<Pelicula> = mutableListOf()
+        peliculas = response
+        response.forEach {
+            if (it.genero.equals("Acción")) {
+                genero.add(it)
+            }
+        }
+        return genero
+    }
+
+Clase ViewModel:
+
+fun seleccionaAccion()
+    {
+        viewModelScope.launch {
+            //isLoading.postValue(true)
+            val result = repo.getPeliculasAccion()
+            if(!result.isNullOrEmpty()){
+                peliculamodel.postValue(result)
+                // isLoading.postValue(false)
+            }
+        }
+    }
+
+Clase Resultado:
+
+private fun initViewModel()
+    {
+        val viewModel : PeliculaViewModel = ViewModelProvider(this).get(PeliculaViewModel::class.java)
+        viewModel.peliculamodel.observe(this, Observer {
+            if(it != null)
+            {
+                adapter.cargarPeliculas(it)
+                adapter.notifyDataSetChanged()
+            }else{
+                Toast.makeText(this,"Error al cargar la lista", Toast.LENGTH_SHORT).show()
+            }
+        })
+        if(genero.equals("Terror"))
+        {
+            viewModel.seleccionaTerror()
+        }
+        if(genero.equals("Comedia"))
+        {
+            viewModel.seleccionaComedia()
+        }
+        if(genero.equals("Acción"))
+        {
+            viewModel.seleccionaAccion()
+        }
+        if(genero.equals("Drama"))
+        {
+            viewModel.seleccionaDrama()
+        }
+    }

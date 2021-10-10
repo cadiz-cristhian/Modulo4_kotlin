@@ -1,0 +1,2 @@
+En esta clase seguí viendo tutoriales sobre como implementar ROOM y sobre si era posible agregar un reproductor de videos
+desde Youtube. 

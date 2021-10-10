@@ -1,0 +1,2 @@
+En esta clase vi diferentes videos sobre retrofit y su integración con el proyecto.
+Seguí un tutorial y pude realizar la conexión y que me mostrara los datos en un Toast.

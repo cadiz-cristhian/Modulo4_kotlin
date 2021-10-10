@@ -1,0 +1,2 @@
+En esta clase el profesor me ayudó con la conexión hacía mi recyclerview.
+La cual nos resultó bien pero no se pudieron mostrar las fotos del .json
